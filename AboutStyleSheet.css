@@ -48,6 +48,14 @@ img
     text-align: left;
 }
 
+.container-fluid4 {
+    background-color: aliceblue;
+    color: darkslategrey;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .container-fluidF {
     background-color: darkslategrey;
     color: white;
