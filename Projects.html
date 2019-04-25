@@ -3,8 +3,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="StyleSheet1.css" />
+    <title>Perri Demopulos - Projects</title>
+    <link rel="stylesheet" href="ProjectStyleSheet.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" \ />
 
 </head>
@@ -17,11 +17,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="Index.html">Me</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar navbar-nav navbar-right">
+                    <li><a href="Index.html">HOME|</a></li>
                     <li><a href="About.html">ABOUT ME|</a></li>
                     <li><a href="Projects.html"> PROJECTS|</a></li>
                     <li><a href="SkillSets.html"> SKILLS|</a></li>
@@ -52,25 +54,34 @@
         <li><a href="EmploymentHistory.html">Employment History</a></li>
     </ul>-->
 
-    <div class="Projects">
-        <h1>Projects</h1>
-        <h2>
-            Database Creation
-        </h2>
-        <p>Using microsoft sequel</p>
-        <h2>
-            Sam Noble Museum of Natural History Digitalization Project
-        </h2>
-        <p>Created 3D scans of artifacts.</p>
-        <h2>
-            Don't M.I.S. IT Competition
-        </h2>
-        <p>Created an app prototype to engage high school students in STEM courses.</p>
-        <h2>
-            X-Culture
-        </h2>
-        <p>Worked on a cross-cultural team to create a business proposal for BrandPort Wi-Fi.</p>
+    <div class="container-fluid1">
+        <h3>My Projects</h3>
     </div>
 
+    <div class="container-fluid2">
+        <div class="row">
+            <div class="col-sm-4">
+                <h4>Sam Noble 3D Scanning Iniative</h4>
+                <p>The Sam Noble Museum of Natural History presented to our team their challenge to deploy 3D scans throughout their museum. Through these scans, they hope to increase patronage visitation and enhance a patron's experience with artifacts in an exhibit. During the course of our project, we researched different 3D scanning methods before proposing photogrammetry to Sam Noble. Once our client accepted our proposal, hardware and software were purchased to complete a scan. We were able to provide a proof of concept to Sam Noble by creating 3 completed scans of artifacts of varying sizes. We also created user guides for them to create new scans after our project to eventually reach their final goal of deploying the scans throughout the museum.</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>Database Creation</h4>
+                <p>The purpose of this project was for our team to create a functioning database on Microsoft SQL Server. We began by creating an ERD (Entity Relationship Diagram) normalizing all of the relations, and created a data dictionary before creating the database on Microsoft SQL Server. The database allowed our "client" to store information about their skis and edit where necessary. The "client" requested specific reports to be queried from the data and we were able to produce those reports.</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>X-Culture</h4>
+                <p>Group project with various students around the world where we were challenged to propose a business solution for BrandPort Wi-Fi. We collaborated over a period of several months to create a formal report outlining our suggestion for BrandPort Wi-Fi with specific guidelines on how to enter the new market we selected.</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>Don't M.I.S. IT Competition</h4>
+                <p>First place winner at the fall 2016 Don't M.I.S. IT Competition. Created and presented an app design that would peak high school students' interest to study the STEM subjects.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+<footer class="container-fluidF bg-4 text-center">
+    <p>Bootstrap Theme made by <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+    <p>Modified April 2019</p>
+</footer>

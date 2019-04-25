@@ -42,3 +42,16 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+
+.container-fluidF {
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h4
+{
+    font-style: italic;
+}
